@@ -6,8 +6,9 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background: rgb(91,122,199);
+  background: linear-gradient(90deg, rgb(64, 86, 140) 0%, rgb(37, 44, 144) 31%, rgb(32, 50, 118) 65%, rgb(13, 59, 101) 100%);
 }
-
 .signup-form {
   display: flex;
   flex-direction: column;
@@ -21,8 +22,8 @@
 
 h2 {
   font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #333;
+  margin-bottom: 10px;
+  color: #ffffff;
 }
 
 label {

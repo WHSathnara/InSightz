@@ -21,12 +21,12 @@ const Login = () => {
   };
 
   const handleLogin = () => {
-    // Perform authentication logic here (e.g., check username and password)
+
     if (formData.username === 'demo' && formData.password === 'password') {
-      // Redirect to home page on successful login
+     
       history.push('/');
     } else {
-      // Display error message on failed login
+ 
       setError('Invalid username or password');
     }
   };
@@ -64,3 +64,4 @@ const Login = () => {
 };
 
 export default Login;
+
