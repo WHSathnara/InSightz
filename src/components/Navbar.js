@@ -55,7 +55,7 @@ function Navbar() {
 
             <li className='nav-item'>
               <Link
-                to='/schedule'
+                to='/Schedule'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
